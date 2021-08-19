@@ -14,6 +14,20 @@ basic.forever(function () {
         . . . . .
         . . . . .
         `)
+    basic.showLeds(`
+        . # . # .
+        # # # # #
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
     basic.showString("Te amo")
     basic.showLeds(`
         . . . . .
