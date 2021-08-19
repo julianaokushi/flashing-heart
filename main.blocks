@@ -1,6 +1,6 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="RNmPqCHyu!K(Eg-GB}00" x="0" y="0"/><block type="device_forever" id="Rj$k#JEGBg*dAuxT`0`@" x="205" y="0"><statement name="HANDLER"><block type="device_show_leds" id="XI]s0Am5J7Bx-#F3sLW,"><field name="LEDS">`
-        . . . . . 
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="RNmPqCHyu!K(Eg-GB}00" x="0" y="0"/><block type="device_forever" id="Rj$k#JEGBg*dAuxT`0`@" x="205" y="0"><statement name="HANDLER"><block type="device_print_message" id="^Z~(yr+P%sxPO#~w,o3o"><value name="text"><shadow type="text" id="m[WMgtxuYHsZF)T4h~Q0"><field name="TEXT">Amoreco</field></shadow></value><next><block type="device_show_leds" id="XI]s0Am5J7Bx-#F3sLW,"><field name="LEDS">`
         . # . # . 
+        # # # # # 
         # # # # # 
         . # # # . 
         . . # . .
@@ -10,4 +10,10 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></statement></block></xml>
+        `</field><next><block type="device_print_message" id="mkl_-(`JO^R8g=wW-*}w"><value name="text"><shadow type="text" id="[*S=d6s~4*^Lds9Z7/GD"><field name="TEXT">Te amo</field></shadow></value><next><block type="device_show_leds" id="ffzkP@H@3EQvc^KU{ngE"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="playMelody" id="rR~vk2Q)dR*oQyao|bkm" disabled="true" x="25" y="312"><value name="melody"><shadow type="melody_editor" id="~PTe5yZLe_bbZ^=iPYK-" disabled="true"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="%HO;h41)}YDW#C#-9}CI" disabled="true"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="basic_show_icon" id="h;kV#ACb@iv0O1Tu1g`b" disabled="true"><field name="i">IconNames.Heart</field></block></next></block></xml>
